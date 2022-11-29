@@ -4,6 +4,9 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    int X;
+    cin>>X;
+
+    cout<<X*800-((X/15)*200)<<endl;
     return 0;
 }
