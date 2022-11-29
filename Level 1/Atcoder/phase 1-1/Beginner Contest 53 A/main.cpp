@@ -4,6 +4,13 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    int X;
+    cin>>X;
+    if (X<1200 && X>0){
+        cout<<"ABC"<<endl;
+    }
+    else if (X>1200) {
+        cout<<"ARC"<<endl;
+    }
     return 0;
 }
